@@ -53,3 +53,55 @@ body{
   font-size: 25px;
   /* border: 2px solid green; */
 }
+/* bannar section  */
+.bannar-main{
+  display: flex;
+  flex-direction: row;
+  margin: 40px auto 40px auto;
+  max-width: 1440px;
+  border: 1px solid green;
+  gap: 20%;
+}
+.bannar-left{
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+p{
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 25px;
+}
+.btn-wrep{
+  display: flex;
+  padding-top: 20px;
+}
+.btn-1{
+  background: rgb(230, 83, 60);
+  color: white;
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  border: none;
+
+}
+.btn-2{
+  background-color: black;
+  color: white;
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  border: none;
+  border: 1px solid white;
+}
+.bannar-right{
+  width: 50%;
+  /* padding-right: 0px; */
+  /* padding-left: 100px; */
+  border: 1px solid green;
+}
+.bannar-left-main{
+  border: 1px solid green;
+  /* margin: auto 0; */
+
+}
