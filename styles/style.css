@@ -3,7 +3,7 @@
 body{
   font-family: "Inter";
   background-color: rgb(34, 34, 34);
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 *{
   margin: 0;
@@ -15,7 +15,9 @@ body{
   background: rgb(230, 83, 60);
   width: 92px;
   height: 38px;
-  padding: 8px 20px;
+  padding: 12px 20px 12px 20px;
+  font-size: 20px;
+  /* border: 2px solid green; */
 }
 .title{
   width: 132px;
@@ -24,21 +26,30 @@ body{
   font-size: 36px;
   font-weight: 700;
   text-align: left;
+  /* border: 2px solid green; */
 }
 .nav-main{
   max-width: 1440px;
   display: flex;
   justify-content: space-between;
+  margin: 0px auto;
+  margin-top: 20px;
   /* border: 2px solid red; */
-  margin: 0 auto;
+
 }
 .menu-item{
-  width: 665px;
-  height: 22px;
+  width: 565px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   border: none;
   color: white;
-  padding-top:15px;
+  /* border: 2px solid red; */
+}
+.hamburger-menu{
+  display: none;
+  color: white;
+  padding-top: 6px;
+  font-size: 25px;
+  /* border: 2px solid green; */
 }

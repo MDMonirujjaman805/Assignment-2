@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px){
+  .menu-item{
+  display: none;
+
+  }
+  .hamburger-menu{
+    display: block;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+  .title{
+    margin-left: 10px;
+  }
+}
