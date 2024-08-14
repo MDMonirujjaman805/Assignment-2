@@ -55,4 +55,14 @@ margin-top: -100px;
 .h4{
   margin-left: 50px;
 }
+.run-container{
+  display: flex; 
+  flex-direction: column;
+}
+  /* .run-right{
+    margin: 0 auto;
+  } */
+  /* .run-left{
+    margin: 0 auto;
+  } */
 }
