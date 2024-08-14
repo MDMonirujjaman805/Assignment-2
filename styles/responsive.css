@@ -59,10 +59,14 @@ margin-top: -100px;
   display: flex; 
   flex-direction: column;
 }
-  /* .run-right{
-    margin: 0 auto;
-  } */
-  /* .run-left{
-    margin: 0 auto;
-  } */
+.team-container{
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  }
+.pc-container{
+  display: flex;
+  flex-direction: column;
+}
+
 }
