@@ -68,5 +68,22 @@ margin-top: -100px;
   display: flex;
   flex-direction: column;
 }
-
+/* footer section  */
+.footer-main{
+  display: flex;
+  flex-direction: column;
+}
+.child-1{
+  margin: 50px auto 20px 30px;
+}
+.child-2{
+  margin: 20px auto 20px 30px;
+}
+.child-3{
+  margin: 20px auto 20px 30px;
+}
+#footer-copyright{
+  text-align: start;
+  margin: 20px auto 50px 30px;
+}
 }

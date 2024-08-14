@@ -276,7 +276,7 @@ margin: 10px auto;
 .team-top{
   text-align: center;
   margin: 20px auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .team-heding{
   color:white;
@@ -317,4 +317,43 @@ margin: 10px auto;
   bottom: 60px;
   left: 10px;
 }
+/* footer section  */
+.footer-main{
+  display: flex;
+  flex-direction: row;
+  max-width: 1440px;
+  margin: 0 auto;
+  /* border: 1px solid white; */
 
+}
+.f-heding{
+  color: white;
+  font-size: 20px;
+}
+.f-s{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  margin: 10px auto;
+}
+.child-1{
+max-width: 477px;
+margin-left: 15%;
+  /* border: 1px solid white; */
+
+}
+.child-2{
+  max-width: 477px;
+  margin-left: 10%;
+  /* border: 1px solid white; */
+
+}
+.child-3{
+  max-width: 477px;
+  margin-left: 10%;
+  /* border: 1px solid white; */
+
+}
+#footer-copyright{
+  text-align: center;
+  margin: 20px auto 50px auto;
+}
