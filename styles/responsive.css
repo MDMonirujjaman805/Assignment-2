@@ -33,4 +33,26 @@ margin-top: -100px;
 .b-btn-left{
 margin-top: -100px;
 }
+.habits-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px auto;
+}
+.habits-bottom{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px auto;
+}
+.k{
+  margin: 10px auto;
+}
+.habits-para{
+  text-align: center;
+  margin-left: 50px;
+}
+.h4{
+  margin-left: 50px;
+}
 }
