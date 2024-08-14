@@ -216,30 +216,24 @@ body{
 /* Run section  */
 .run-container{
   display: flex;
-  /* flex-direction: column; */
   max-width: 1440px;
   margin: 20px auto;
   /* border: 1px solid white; */
   gap: 10%;
+  justify-content: space-between;
 }
 .run-left{
-/* border: 1px solid red; */
 display: flex;
 flex-direction: column;
 width: 45%;
+margin-left: 10px;
 /* border: 1px solid white; */
-
 }
 .run-right{
-  /* border: 1px solid white; */
-  width: 45%;
-  /* justify-content: end; */
-  /* justify-items: end; */
-  /* align-items: end; */
-  /* align-content: end; */
-  margin-right: 0 auto;
-  border-radius: 50px;
+  width: 50%;
+  gap: 30%;
 }
+
 .run-heding{
   color:white;
   width: 475px;
